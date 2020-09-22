@@ -1,0 +1,58 @@
+*, *::before, *::after { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+html,body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+
+body{
+    background-image: url(../exercicio-boteco/img/bg-body.png) ;
+    margin-left:4em ;
+    margin-right:4em ;
+}
+
+.navbar{
+    width: 60px;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.centralizar{
+    text-align: center;
+}
+
+div a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.col{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer{
+    background-color: #c80000;
+}
+
+
+@media screen and (min-width: 1126px){
+    .tamanho{
+        width: 1400px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body{
+       
+        margin-left:1em ;
+        margin-right:1em ;
+    }
+}
